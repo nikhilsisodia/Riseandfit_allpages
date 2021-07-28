@@ -1,0 +1,14 @@
+if ($conn) {
+?>
+<script>
+alert("connection sucessful")
+</script>
+<?php
+} else {
+?>
+<script>
+alert("no connection")
+</script>
+
+<?php
+}

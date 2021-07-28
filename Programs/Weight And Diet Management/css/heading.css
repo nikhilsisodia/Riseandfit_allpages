@@ -1,0 +1,145 @@
+/*this file contain 
+ONLY HEADING CSS
+*/
+
+.content {
+    display: flex;
+    align-items:center;
+	justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+}
+
+.content h2 {	
+	color: rgb(0, 0, 0);
+	font-size: 4.2rem;
+	position: absolute;	
+    font-family: "roboto",sans-serif;
+}
+
+.maincontent{
+    display: flex;
+    justify-content: center;
+}
+
+.moto h1 {
+    margin-top: 2rem;
+    color: rgb(8, 8, 8);
+    font-family: "roboto" , sans-serif;
+    margin-left: 5rem;
+    font-size: 3.5rem;
+    align-content: space-between;
+  }
+
+/*FOR MOBILE PHONES*/
+  @media only screen and (min-width:320px) and (max-width:480px) {
+    .content {
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    margin-top: 0px;
+    margin: 10px;
+    
+    }
+ 
+
+    .content h2 {	
+        color: rgb(2, 2, 2);
+        font-size: 1.3rem;
+        position:absolute;	
+        font-family: "roboto",sans-serif;
+        
+    }
+    .maincontent{
+        display: flex;
+        justify-content: center;
+
+
+    }
+    .moto h1 {
+        margin: 10px;
+        color: rgb(0, 0, 0);
+        font-family: "roboto" , sans-serif;
+        font-size: 1.1rem;
+        text-align:center;
+      }
+
+      .reviewcontent h2{
+          margin-bottom: 2rem;
+          font-size: 1.5rem;
+      }
+
+
+  }
+
+
+  @media only screen and (min-width:481px) and (max-width:768px) {
+
+
+    .content {
+        display: flex;
+        justify-content:center;
+        flex-direction: row;
+        margin-top: 0px;
+        margin: 10px;
+        
+        }
+     
+    
+        .content h2 {	
+            color: rgb(2, 2, 2);
+            font-size: 1.5rem;
+            position:absolute;	
+            font-family: "roboto",sans-serif;
+            
+        }
+        .maincontent{
+            display: flex;
+            justify-content: center;
+    
+    
+        }
+        .moto h1 {
+            margin: 10px;
+            color: rgb(0, 0, 0);
+            font-family: "roboto" , sans-serif;
+            font-size: 1.8rem;
+            text-align:center;
+          }
+
+  }
+
+  @media only screen and (min-width:768px) and (max-width:1024px) {
+
+    .content {
+        display: flex;
+        justify-content:center;
+        flex-direction: row;
+        margin-top: 0px;
+        margin: 10px;
+        
+        }
+     
+    
+        .content h2 {	
+            color: rgb(2, 2, 2);
+            font-size: 3rem;
+            position:absolute;	
+            font-family: "roboto",sans-serif;
+            
+        }
+        .maincontent{
+            display: flex;
+            justify-content: center;
+    
+    
+        }
+        .moto h1 {
+            margin: 10px;
+            color: rgb(0, 0, 0);
+            font-family: "roboto" , sans-serif;
+            font-size: 2.8rem;
+            text-align:center;
+          }
+
+  }

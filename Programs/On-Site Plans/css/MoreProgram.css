@@ -1,0 +1,272 @@
+/*MORE PROGRAM CSS start*/
+.container{
+    margin:0px auto;
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  /* Float three columns side by side */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    display: table;
+    clear: both;
+  }
+
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+    border-radius:10px;
+    cursor:pointer;
+  }
+  .card .profile{
+     border-radius:10px;
+     transition: 0.2s;
+  }
+  .card:hover .profile{
+    transform:scale(1.4);
+    border-top-right-radius:50px;
+    border-top-left-radius:50px;
+  }
+  
+  .card .content1{
+    width:100%;
+    height:100%;
+    position:relative;
+    overflow:hidden;
+  }
+  .card .content1 .back{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color: #f1f1f1e6;
+    transition:1s;
+    
+    z-index:1;
+    padding:10px;
+  }
+  
+  .from-left{
+    top:0;
+    left:-100%;
+  }
+  .card:hover .content1 .from-left {
+     left:0%;
+  }
+  
+  .from-bottom{
+    top:100%;
+    left:0;
+  }
+  .card:hover .content1 .from-bottom {
+     top:0%;
+  }
+  
+  .from-right{
+    top:0%;
+    right:-100%;
+  }
+  .card:hover .content1 .from-right {
+     right:0;
+  }
+  
+  .card .content1 .back h3{
+    font-size:15px;
+    letter-spacing:2px;
+  }
+  .card .content1 .back .tem-img{
+    border-radius:100%;
+  }
+  
+  .card .content1 .back .des{
+    font-size:13px;
+    padding:20px 0px;
+  }
+  .card .content1 .back .social-icon{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+  }
+  .card .content1 .back .social-icon li{
+    display:inline-block;
+  }
+  
+  .card .content1 .back .social-icon li a{
+    display:block;
+    background:#333;
+    color:#fff;
+    width:40px;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    border-radius:100%;
+  }
+  
+  /*Card text css*/
+  
+  #price{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  
+  #price button{
+    margin:2vw 1vw 2vw 0vh;
+    height:40px;
+    width:80px;
+    font-size:2.3vh;
+    font-family:"Roboto" sans-serif; 
+    font-weight:Regular;
+    background-color:#345e82;
+    border:none;
+    outline:none;
+    color:white;
+    border-radius:10px;
+    transition:0.3s
+  }
+  
+  #price button:active{
+    background-color:white;
+    color:#345e82
+  }
+  
+  #price button:hover{
+    transition:0.3s;
+    margin-left:2vw;
+    margin-right:2vw;
+    transform:scale(1.3);
+    cursor:pointer
+  }
+
+
+  @media only screen and (min-width:320px) and (max-width:480px) {
+
+    #points{
+        margin-top: 0rem;
+        font-size: 0.8rem;
+    }
+    
+        #price button{
+            margin:2vw 1vw 2vw 0vh;
+            height:30px;
+            width:80px;
+            font-size:2.5vh;
+            font-family:"Roboto" sans-serif; 
+            font-weight:Regular;
+            background-color:#345e82;
+            border:none;
+            outline:none;
+            color:white;
+            border-radius:10px;
+            transition:0.3s
+          }
+
+          #points h2{
+            margin-top: 0.8rem;
+            font-size: 1.2rem;
+        }  
+        .container{
+          display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+   
+      .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+    
+    
+    
+      }
+
+
+  @media only screen and (min-width:481px) and (max-width:768px) {
+
+#points{
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+    #price button{
+        margin:2vw 1vw 2vw 0vh;
+        height:50px;
+        width:100px;
+        font-size:2.3vh;
+        font-family:"Roboto" sans-serif; 
+        font-weight:Regular;
+        background-color:#345e82;
+        border:none;
+        outline:none;
+        color:white;
+        border-radius:10px;
+        transition:0.3s
+      }
+      .container{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+ 
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      }
+
+
+  }
+  
+
+
+  
+  @media only screen and (min-width:768px) and (max-width:1024px) {
+
+
+    #points{
+      margin-top: 0rem;
+      font-size: 1.8rem;
+  }
+  
+
+
+  #points h2 {
+    margin-top: 0rem;
+    font-size: 2.5rem;
+}
+      #price button{
+          margin:2vw 1vw 2vw 0vh;
+          height:50px;
+          width:100px;
+          font-size:2.5vh;
+          font-family:"Roboto" sans-serif; 
+          font-weight:Regular;
+          background-color:#345e82;
+          border:none;
+          outline:none;
+          color:white;
+          border-radius:10px;
+          transition:0.3s
+        }
+
+.front h2{
+  font-size: 6vh;
+}
+
+  }
+ /*MORE PROGRAM CSS end*/

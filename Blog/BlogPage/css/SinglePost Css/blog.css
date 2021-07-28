@@ -1,0 +1,382 @@
+/*******************Blog Section Css Starts**************/
+.blog{
+    position:relative;
+    height:4000px; 
+    overflow: hidden;
+    width: 100%;
+}
+/************Blogs left hand side section css starts**********/
+.blogPost {
+    position: absolute;
+    left: 0;
+    width: 60%;
+    overflow: hidden;
+    margin-left: 5rem;
+    display: inline-block;
+}
+.myBlog{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    text-align:center;
+    margin:2rem;
+    overflow: hidden;
+    display:inline-block;
+    padding:1.5rem;
+    background-color: white;
+}
+.myBlog p{
+    font-size: 22px;
+    color:#6C757D;
+}
+.comment-section{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    text-align:center;
+    margin:2rem;
+    display: inline-block;
+    padding:1rem;
+    color:#6C757D;
+    background-color: white;
+}
+.prev-comments {
+    margin-top: 50px;
+}
+
+.prev-comments .single-item {
+    background: #FFF;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    padding: 10px 20px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.prev-comments .single-item h4 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #111;
+}
+
+.prev-comments .single-item a {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #111;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.prev-comments .single-item p {
+    font-size: .9rem;
+    color: #111;
+}
+.wrapper{
+    padding:0rem 2rem;
+    border:1px solid black;
+    overflow:scroll;
+    height: 500px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    width:92%;
+    margin:auto;
+}
+.blogPost img{
+    height:500px;
+    width:100%;
+    background-size: 100% 100%;
+    padding:2rem 0;
+    
+}
+
+.page-link{
+    color:black;
+}
+/****************blogs right hand side css starts**********/
+.blogFeature{
+    position: absolute;
+    right:0;
+    width:25%;
+    overflow:hidden;
+    margin-right: 5.5rem;
+    display:inline-block;
+    
+}
+/*****Why raf Portion******/
+.description{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    text-align:center;
+    margin:2rem;
+    overflow:hidden;
+    display:inline-block;
+    background-color: white;
+
+}
+.imgRAF{
+    height: 200px;
+    width:90%;
+    background-size:100% 100%;
+}
+.RAFp{
+    color: #6C757D;
+    text-align: center;
+    font-size: 19px;
+    padding: 17px;
+}
+/*****Popular post portion*******/
+.FeaturePost{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    text-align:center;
+    margin:2rem;
+    overflow: hidden;
+    display:inline-block;
+    background-color: white;
+    display: none;
+
+}
+.FeaturePost img{
+    height: 100px;
+    width:50%;
+    background-size:100% 100%;
+}
+
+.PopularPost-heading a{
+  color:black;
+}
+.PopularPost-heading a:hover{
+    color:black;
+    text-decoration: none;
+  }
+
+.PopularPost1{
+ margin:1rem 0;
+}
+.PopularPost2{ 
+ margin:1rem 0;
+}
+.PopularPost3{
+    margin:1rem 0;
+}
+.PopularPost4{
+    margin:1rem 0;
+}
+.PopularPost5{
+    margin:1rem 0;
+}
+/********Advertisement Portion********/
+.advertise{
+    height:150px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    text-align:center;
+    margin:2rem;
+    overflow: hidden;
+    background-color: white;
+    display: none;
+
+}
+.ads{
+    margin:auto;
+    width:90%;
+    height:30px;
+    background-color: #fff;
+    display: none;
+}
+/*******Tags Portion**********/
+.tags{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    margin:2rem;
+    overflow:hidden;
+    display: inline-block;
+    background-color: white;
+    display: none;
+
+}
+.tagName{
+    text-align: center;
+}
+
+    
+.tags button{
+   height:2rem;
+   width:5rem;
+   margin:5px;
+   border-radius:20%;
+   background-color: rgba(255, 94, 98, 1);
+   color:#fff;
+   display:inline-block;
+
+  }
+  .tags button:hover{
+      opacity:0.5;
+  }
+  /********instagram feed portion*********/
+  .instagram{
+    height:300px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    text-align:center;
+    margin:2rem;
+    overflow: hidden;
+    background-color: white;
+
+  }
+.instagram img{
+    height:100px;
+    width:100px;
+    background-size: 100% 100%;
+    margin:1rem;
+}  
+/*******Follow Us portion*************/
+.followUs {
+    margin: 2rem;
+    height: 126px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+/* display: flex;
+justify-content: space-around;
+flex-wrap: wrap; */
+}
+.fa-instagram-square{
+    color:#fb3958;
+ }
+ .fab:hover{
+     opacity: 0.5;
+     color:#ff8013;
+ }
+.sci{
+display: flex;
+justify-content: space-evenly;
+font-size: 35px;
+list-style-type: none;
+}
+/**************Subscribe portion***************/
+.subscribe{
+    height:300px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    margin:2rem;
+    text-align:center;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+.text{
+    font-weight: bold;
+    font-size:1.25em;
+}
+@media(max-width:1024px){
+    .sci{
+        margin:1rem;
+    }
+    .tags button{
+        margin:auto;
+    }
+}
+@media(max-width:991px){
+   .blogPost{
+       width:70%;
+    margin-left:-7px;
+   } 
+   .blogFeature{
+      width:30%;
+      margin-right: 17px;
+   }
+  .sci li{
+      margin:0;
+  }
+  .tags button{
+    margin:auto;
+}
+}
+
+@media(max-width:800px){
+    .blog{
+        height:3800px;
+        display: flex;
+    flex-direction: column;
+        
+    }
+    .blogPost{
+     width:100%;
+     position: static;
+    }
+    .blogFeature{
+        width:100%;
+        /* top:2400px; */
+        position: static;
+        padding: 0 70px;
+    
+    }
+    .followUs{
+        display: none;
+    }
+    .navigation{
+        margin-left:12.5rem;
+    }
+    .tags button{
+        margin:auto;
+    }
+
+}
+
+@media(max-width:625px){
+    .blog{
+        height:3700px;
+    }
+    .blogFeature{
+        top: 3000px;
+    }
+    .tags button{
+        margin:auto;
+    }
+    .blogPost{
+        width: 100%;
+       }
+    .blogPost img{
+        height:400px;
+       }
+}
+
+@media(max-width:528px){
+.blog{
+    height: 3800px;
+}
+}
+
+@media(max-width:468px){
+    .blog{
+        height: 3884px;
+    }
+    }
+
+@media(max-width:424px){
+    .blog{
+        height: 3960px;
+    }
+    }
+
+@media(max-width:424px){
+    .blog{
+        height: 4000px;
+    }
+    }
+    @media(max-width:291px){
+        .blog{
+            height: 11700px;
+        }
+      }
